@@ -9,17 +9,19 @@
         "sourceType": "module"
     },
     "rules": {
-        "indent": [
+        /*         "indent": [
             "error",
-            2
-        ],
+            4
+        ], */
         "linebreak-style": [
             "off"
         ],
         "quotes": [
             "error",
             "single",
-            {"allowTemplateLiterals": true}
+            {
+                "allowTemplateLiterals": true
+            }
         ],
         "semi": [
             "error",
